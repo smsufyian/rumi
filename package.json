@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "git@github.com:smsufyian/rumi.git",
   "author": "muhammad.sufyian <s.m.sufyian@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.2"
+  },
+  "scripts": {}
 }
