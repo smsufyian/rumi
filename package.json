@@ -1,0 +1,9 @@
+{
+  "name": "rumi",
+  "version": "1.0.0",
+  "description": "personal scheduling assistant",
+  "main": "index.js",
+  "repository": "git@github.com:smsufyian/rumi.git",
+  "author": "muhammad.sufyian <s.m.sufyian@gmail.com>",
+  "license": "MIT"
+}
