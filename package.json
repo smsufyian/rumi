@@ -10,7 +10,8 @@
     "@playwright/test": "^1.45.3",
     "@types/node": "^22.0.2",
     "cucumber": "cucumber/cucumber",
-    "cucumber-tsflow": "^4.4.4"
+    "cucumber-tsflow": "^4.4.4",
+    "prettier": "3.3.3"
   },
   "scripts": {}
 }
