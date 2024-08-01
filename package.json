@@ -8,7 +8,9 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.45.3",
-    "@types/node": "^22.0.2"
+    "@types/node": "^22.0.2",
+    "cucumber": "cucumber/cucumber",
+    "cucumber-tsflow": "^4.4.4"
   },
   "scripts": {}
 }
