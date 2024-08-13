@@ -1,6 +1,6 @@
 Feature:  Rumi provides source code analytics
 
-  Scenario Outline: Analysing sourcecode repository
+  Scenario Outline: Rumi can calculate lines of code
     Given muhammad has sourcecode <repository>.
     When muhammad analyse the <repository>.
     Then rumi tells number of <lines of code>.
