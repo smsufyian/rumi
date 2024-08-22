@@ -22,5 +22,8 @@
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.0.0"
   },
-  "scripts": {}
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
