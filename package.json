@@ -8,19 +8,15 @@
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.8.0",
-    "@playwright/test": "^1.45.3",
     "@types/node": "^22.0.2",
-    "chai": "^5.1.1",
-    "cucumber": "cucumber/cucumber",
-    "cucumber-tsflow": "^4.4.4",
     "eslint": "9.x",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.35.0",
-    "globals": "^15.9.0",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "prettier": "3.3.3",
+    "turbo": "^2.0.14",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.0.0"
   },
@@ -28,14 +24,13 @@
     "prepare": "husky"
   },
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-    ]
+    "*.{js,jsx,ts,tsx}": []
   },
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "dependencies": {},
+  "workspaces": ["rumi-backend", "rumi-frontend"],
+  "packageManager": "yarn@1.22.22",
+  "private": "true"
 }

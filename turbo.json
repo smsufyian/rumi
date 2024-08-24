@@ -1,0 +1,25 @@
+{
+  "baseBranch": "main",
+  "commands": {
+    "prepare": {
+      "cmd": "yarn install",
+      "workspaces": {
+        "include": ["rumi-backend", "web-frontend"]
+      }
+    },
+    "build": {
+      "cmd": "yarn build",
+      "workspaces": {
+        "include": ["rumi-backend", "web-frontend"]
+      },
+      "dependsOn": ["prepare"]
+    },
+    "test": {
+      "cmd": "yarn test",
+      "workspaces": {
+        "include": ["rumi-backend", "web-frontend"]
+      },
+      "dependsOn": ["build"]
+    }
+  }
+}
